@@ -32,7 +32,7 @@ nav {
 
 .results-etoiles-container {
   display: flex;
-  width: 40%;
+  width: 100%;
   background-color: #fff;
   padding: 15px 0 15px 0;
   border-radius: 5px;
