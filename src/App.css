@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #043487;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #EEBB05;
+}
+
+.results-etoiles-container {
+  display: flex;
+  width: 40%;
+  background-color: #fff;
+  padding: 15px 0 15px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 70px auto;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.numbers p {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.stars p {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.lottery-balls {
+  display: flex;
+  justify-content: center;
+}
+
+.lottery-ball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #19269E;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.numbers .lottery-balls .lottery-ball {
+  background-color: #19269E;
+}
+
+.stars .lottery-balls .lottery-ball {
+  background-color: #EEBB05;
+}
+
+.my-million {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.my-million label {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #EEBB05;
+}
+
+.my-million input {
+  border-radius: 15px;
+  border-color: #19269E;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #19269E;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #EEBB05;
+}
+
+.saved-inputs-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.saved-input-card {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-element {
+  display: block;
+}
+
+.date-and-time {
+  font-size: small;
+}
+
+.numbers-and-stars {
+  font-size: smaller;
+}
+
+h3 span {
+  font-weight: bolder;
+  color: #EEBB05;
+}
+
+.delete-button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.delete-button i {
+  color: #666;
+}
+
+.delete-button:hover i {
+  color: #333;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #19269E;
+  font-weight: bold;
+  background-color: #EEBB05;
+}
+
+footer span {
+  color: #fff;
+  font-weight: bold;
+}
