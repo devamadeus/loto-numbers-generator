@@ -57,6 +57,7 @@ function App() {
     }
     // Set the saved inputs state to the inputs array
     setSavedInputs(inputs);
+    generateNumbers();
   }, []);
 
   // Create a function to handle changes to the myMillion text field
